@@ -69,27 +69,27 @@ We select only the lines with "ok=true" and count the lines
 
 ### 7, Which level (INFO, WARN, ERROR) appears most often in system_small.log?
 
-Put screenshot from Codespaces illustrating the result here.
-Correct screenshot should contain your github username in the shell, a command and the result.
+![alt text](image-6.png)
 
 **Explanation** Write the explanation why the specific command was used.
 
+cuts separate the keywords we wish to count and after sorting we count occurances of unique occurances - ERROR appears most often
 ---
 
 ### 8. What is the top 3 most common actions in app_small.log?
 
-Put screenshot from Codespaces illustrating the result here.
-Correct screenshot should contain your github username in the shell, a command and the result.
+![alt text](image-7.png)
 
 **Explanation** Write the explanation why the specific command was used.
 
+Same as before - cuts isolate the action, sorting and countinq occurances and finally sorting for ease of finding the answer - top 3 are search, pay, delete
 ---
 
 ### 9. How many unique users are in app_small.log?
 
-Put screenshot from Codespaces illustrating the result here.
-Correct screenshot should contain your github username in the shell, a command and the result.
+![alt text](image-8.png)
 
 **Explanation** Write the explanation why the specific command was used.
 
+cut isolates the column containing the users, sort and uniq leave only unique occurances, counting the lines with wc -l gives us the answer
 ---
